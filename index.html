@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Strength Checker</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Password Strength Checker</h1>
+
+    <div class="input-group">
+      <input id="password" type="password" placeholder="Type your password...">
+      <span id="toggleBtn"><i class="fa-solid fa-eye"></i></span>
+      <button id="copyBtn"><i class="fa-solid fa-copy"></i></button>
+      <button id="generateBtn">Generate Strong Password</button>
+    </div>
+
+    <div class="meter">
+      <div id="fill" class="fill"></div>
+    </div>
+    <div class="label" id="label">Enter a password</div>
+    <div class="feedback" id="feedback"></div>
+
+    <div class="tips" id="tips"></div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
